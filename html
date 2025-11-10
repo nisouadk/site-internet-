@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie d’Art Sultan</title>
+  <link rel="stylesheet"href="style.css">
+ 
+    body {
+      font-family: 'Didot', serif;
+      color: #2c1a16;
+      background-color: #fffdfb;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      margin-top: 1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .bandeau {
+      background-image: url('tapis.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 120px;
+      margin-top: 1rem;
+    }
+
+    .infos {
+      text-align: center;
+      padding: 1rem;
+      font-style: italic;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background-color: #722f25;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .intro {
+      width: 80%;
+      max-width: 800px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+
+    .intro img {
+      width: 100%;
+      max-width: 350px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images site galerie/Beige and Black Trendy Minimalist New Abstract Store Logo.png" alt="Galerie Sultan" width="120">
+    </div>
+    <nav>
+      <a href="#">Recherche</a>
+      <a href="#">Agenda</a>
+      <a href="#">Billets</a>
+    </nav>
+    <div class="bandeau"></div> 
+  </header>
+
+  <div class="infos">
+    <p>Ouvert aujourd’hui de 9h30 à 18h00</p>
+    <div class="btns">
+      <button class="btn">préparer sa visite</button>
+      <button class="btn">accès et tarifs</button>
+    </div>
+  </div>
+
+  <section class="intro">
+    <img src="dilara.jpg" alt="Dilara Findikoglu">
+    <p><strong>Dilara Findikoglu X Galerie Sultan !</strong><br>
+    La haute couture rencontre l’histoire.<br>
+    Nous sommes fiers d’annoncer une collaboration inédite avec la styliste Dilara Findikoglu qui réinvente l’Art Ottoman.<br>
+    <em>Préparez-vous à la subversion.</em></p>
+  </section>
+</body>
+</html>
