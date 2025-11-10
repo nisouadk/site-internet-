@@ -1,0 +1,97 @@
+body {
+  font-family: 'Didot', serif;
+  color: #2c1a16;
+  background-color: #fffdfb;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  margin-top: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: #2c1a16;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.bandeau {
+  background-image: url('images/_113.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  margin-top: 1rem;
+}
+
+.infos {
+  text-align: center;
+  padding: 1rem;
+  font-style: italic;
+  color: #2c1a16;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #722f25;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background-color: #8e3a2c;
+}
+
+.intro {
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.intro img {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.intro p {
+  font-size: 1rem;
+  color: #2c1a16;
+}
+
+.intro strong {
+  font-size: 1.1rem;
+  color: #4d2a24;
+}
+
+.intro em {
+  color: #722f25;
+}
